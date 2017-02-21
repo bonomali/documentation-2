@@ -44,3 +44,7 @@ The optional fields allow you to enforce granular access controls and associate 
 
 Once saved, a user can test the connection by clicking on **Test Connection** button.
 
+##   Next Steps
+
+-   Create a Cluster: https://github.com/hypergrid-inc/documentation/edit/master/clusters
+-   Provision a VM: https://github.com/hypergrid-inc/documentation/edit/master/virtual-machines
