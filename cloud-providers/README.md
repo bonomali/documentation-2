@@ -21,9 +21,11 @@ Public Clouds:
 -   Rackspace: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/rackspace
 -   OVH: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/ovh
 -   Platform9: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/platform9
+-   Google Cloud: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/google-cloud
 
 Private Clouds
 -   HyperCloud: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud
 -   Microsoft Hyper-V: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hyper-v
 -   VMware vSphere: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/vsphere
 -   OpenStack (OVH): https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/openstack
+-   Cloudstack: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/cloudstack
