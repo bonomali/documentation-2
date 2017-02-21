@@ -60,7 +60,7 @@ Here are the entries that you need to update:
 
 ### Step 7: Create A Cluster
 You can check the full documentation for infrastructure provisioning here:
-https://github.com/hypergrid-inc/documentation/clusters
+https://github.com/hypergrid-inc/documentation/tree/master/clusters
 
 Before we can register a Linux host, we need to create a cluster. This can be done by navigating to Clusters and then clicking on the + button. In the recorded videos, we made things simple and selected the default settings (i.e. Docker networking). 
 
@@ -84,7 +84,7 @@ All of these parameters can be overridden in the **System Settings** page by the
 
 ### Step 9: Deploy One Of The Out-Of-Box Application Templates
 You can check the full documentation on application modeling and deployment here:
-https://github.com/hypergrid-inc/documentation/blueprints/docker-compose-v1
+https://github.com/hypergrid-inc/documentation/tree/master/blueprints/docker-compose-v1
 
 Navigate to the **Library* and then click **View** on any of the available application templates.
 
