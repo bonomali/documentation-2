@@ -10,17 +10,17 @@ Microsoft Azure Resource Manager - Cloud Provider Registration
 Before creating a Cloud Provider, you will need to create an Application in the Active Directory and capture the required information as per the steps below. You will also need to create a Resource Group, a Storage Account, a Virtual Network and an Availability Set.
 
 Here are the detailed steps.
-1.   Go to Azure Active Directory on the Azure Portal. Click on App Registrations and click on Add to add a new application.
-2.   Copy the Application ID. This will be mapped to **Application Client ID** when registering a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
-3.   Copy the Directory ID by navigating to Properties. This will be mapped to **Tenant ID** when registering a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
-4.   Click on Keys and then enter the name of the key along with the expiration date. Click on Save to generate a new key for this application. Important - copy the key's value after you click save. This will be the **"Application Client Secret"** when creating a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
-5.   Add the appropriate Owners to this application by clicking on Owners and then clicking on Add.
-6.   Copy the **Subscription ID** by navigating to Subscriptions and then selecting the one you would like to use. Add the new Application to the Subscription by navigating to Access Control (IAM) and then clicking on Add. Select the role as the Owner and then search for the application that was added earlier.
-7.   Create a Resource Group and add the Application user as “Owner” if not already added.
-8.   (Optional) Create a Storage Account and add it to the newly created Resource Group.
-9.   (Optional) Create a Virtual Network and add it to the newly create Resource Group
-10.   (Optional) Create an Availability Set and assign it to the Resource Group
-11.   (Optional) Create a Network Security Group and assign it to the Resource Group. Important - make sure that the SSH port 22 is open for to the HyperForm platform. You can also open any other ports needed for your applications (e.g. 80, 8080, etc.).
+-   Go to Azure Active Directory on the Azure Portal. Click on App Registrations and click on Add to add a new application.
+-   Copy the Application ID. This will be mapped to **Application Client ID** when registering a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
+-   Copy the Directory ID by navigating to Properties. This will be mapped to **Tenant ID** when registering a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
+-   Click on Keys and then enter the name of the key along with the expiration date. Click on Save to generate a new key for this application. Important - copy the key's value after you click save. This will be the **"Application Client Secret"** when creating a Cloud Provider for Microsoft Azure Resource Manager in HyperForm.
+-   Add the appropriate Owners to this application by clicking on Owners and then clicking on Add.
+-   Copy the **Subscription ID** by navigating to Subscriptions and then selecting the one you would like to use. Add the new Application to the Subscription by navigating to Access Control (IAM) and then clicking on Add. Select the role as the Owner and then search for the application that was added earlier.
+-   Create a Resource Group and add the Application user as “Owner” if not already added.
+-   (Optional) Create a Storage Account and add it to the newly created Resource Group.
+-   (Optional) Create a Virtual Network and add it to the newly create Resource Group
+-   (Optional) Create an Availability Set and assign it to the Resource Group
+-   (Optional) Create a Network Security Group and assign it to the Resource Group. Important - make sure that the SSH port 22 is open for to the HyperForm platform. You can also open any other ports needed for your applications (e.g. 80, 8080, etc.).
 
 ##   Register a Cloud Provider for Microsoft Azure Resource Manager
 
