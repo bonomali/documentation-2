@@ -10,9 +10,9 @@ Amazon Elastic Compute Service (EC2) - Cloud Provider Registration
 Before creating a Cloud Provider, you will need to obtain the Access Key and the Secret Key from the **IAM Management Console** in AWS.  Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key. The IAM User in AWS used needs to have the AdministratorAccess policy attached.
 
 
-##   Register a Cloud Provider for Microsoft Azure Resource Manager
+##   Register a Cloud Provider for AWS
 
-You can now register a Cloud Provider for Microsoft Azure by navigating to **Cloud Providers** and then clicking on the **+New** button to select **Amazon EC2**. The required fields are:
+You can now register a Cloud Provider for AWS by navigating to **Cloud Providers** and then clicking on the **+New** button to select **Amazon EC2**. The required fields are:
 -   **Name** - a user can create multiple Cloud Providers with the same AWS credentials but with different names and entitlements to control infrastructure provisioning by team or department
 -   **AWS Access Key** - this can be retrieved from the IAM Management Console in AWS. Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key.
 -   **AWS Secret Key** - this can be retrieved from the IAM Management Console in AWS. Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key.
