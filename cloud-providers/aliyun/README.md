@@ -7,7 +7,7 @@ Alibab Aliyun - Cloud Provider Registration
 
 ##   Pre-requisite Steps
 
-Before creating a Cloud Provider, you will need to obtain the Access Key and the Secret Key from the **"AccessKeys""** section in the Aliyun Console.
+Before creating a Cloud Provider, you will need to obtain the Access Key and the Secret Key from the **"AccessKeys"** section in the Aliyun Console.
 
 
 ##   Register a Cloud Provider for Microsoft Azure Resource Manager
