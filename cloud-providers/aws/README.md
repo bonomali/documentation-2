@@ -2,14 +2,37 @@
 <img src="http://www.hypergrid.com/wp-content/themes/hypergrid/img/logo.png" alt="" />
 </figure>
 
-HyperForm Documentation 
+Amazon Elastic Compute Service (EC2) - Cloud Provider Registration
 ===========================
 
-HyperForm is the cloud management and application deployment automation engine in HyperCloud, a full-stack cloud service for the enterprise on-premises. HyperCloud combines the agility, simplicity and economics of public cloud services with the customization, control and security of on-premises solutions. 
+##   Pre-requisite Steps
 
-HyperForm delivers automated, self-service infrastructure and application provisioning on HyperGrid as well as 15 other clouds and virtualization platforms – like VMware vSphere, OpenStack, Microsoft Hyper-V, Amazon Web Services, Microsoft Azure and others. The governance framework in HyperForm provides role-based access controls, entitlements, approval, quota and cost metering policies to enable secure and holistic management of resources, workloads, and operations across any cloud with the cost visibility needed to control spending.
-
-HyperForm drives business innovation by modernizing existing legacy applications without making a single code change and using the existing skill sets within an organization. The on-the-fly containerization capabilities allow users to “lift and shift” existing Java and .NET applications to containers while taking care of the complex application dependencies, automatic service discovery, auto-scaling and integration with any external service (e.g. storage, networking, logging, etc.). HyperForm transforms non-cloud-native legacy applications into completely portable applications that can be deployed on any cloud.
+Before creating a Cloud Provider, you will need to obtain the Access Key and the Secret Key from the **IAM Management Console** in AWS.  Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key. The IAM User in AWS used needs to have the AdministratorAccess policy attached.
 
 
-This documentation library contains all the instructions for registering cloud providers, provisioning virtual machines, and deploying applications on containers or VMs.
+##   Register a Cloud Provider for Microsoft Azure Resource Manager
+
+You can now register a Cloud Provider for Microsoft Azure by navigating to **Cloud Providers** and then clicking on the **+New** button to select **Amazon EC2**. The required fields are:
+-   **Name** - a user can create multiple Cloud Providers with the same AWS credentials but with different names and entitlements to control infrastructure provisioning by team or department
+-   **AWS Access Key** - this can be retrieved from the IAM Management Console in AWS. Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key.
+-   **AWS Secret Key** - this can be retrieved from the IAM Management Console in AWS. Select one of the users in the Users page and then click on the Security Credentials tab to create an access key and secret key.
+
+
+The Advanced Configuration menu can be expended to provide more advanced options.
+-   **Group** - this is the default VM prefix for VM's provisioned using this Cloud Provider. A user can override this value when provisioning VM's via the UI-based workflow or when creating Machine Blueprints.
+-   **Free Form Provision** - this toggle allows the Cloud Provider owner to control whehther users can provision VM's via a UI-based workflow. If enabled, then users can provision VM's from the UI-based workflows under the Machines page. If disabled, then users will need to provision VM's via published Machine Blueprints in the Library.
+-   **Trusted Blueprints** -- these are the Machine Compose templates that can be used with this cloud provider. For example, if a Tenant Admin wishes to restrict users to provisioning 4GB machines on certified operating systems, then users will not be able to use this cloud provider to provision any other machine.
+-   **Approval Enforced** - this toggle allows the Cloud Provider owner to control whehther approvals are needed for any provisioning request using this provider. If enabled, then an approval request will show up under Notifications page for every provisioning request. If disabled, then provisioning requests are approved by default based on the entitlement and quota policies defined in the Cloud Provider.
+-   **VM Limit** -- this is the maximum number of virtual machines that can be used with this cloud provider
+-   **Quota Policies** -- these are pre-defined policies for setting quotas on the number of VM's or the cost of VM's. Multiple quota policies can be selected to customize controls per user or per group of users.
+-   **Lease** - this is the lease (or the maximum amount of time) for provisioned VM's. If a lease expires, then the provisioned VM will be automatically destroyed. Users can request a lease extension from the Machines page.
+
+The optional fields allow you to enforce granular access controls and associate this provider with a quota policy.
+-   **Entitled Users** -- these are the users who are allowed to use this Cloud Provider for infrastructure provisioning. The entitled users do not have permission to manage or delete this cloud provider and will not be able to view any of the credentials.
+
+Once saved, a user can test the connection by clicking on **Test Connection** button.
+
+##   Next Steps
+
+-   Create a Cluster: https://github.com/hypergrid-inc/documentation/edit/master/clusters
+-   Provision a VM: https://github.com/hypergrid-inc/documentation/edit/master/virtual-machines
