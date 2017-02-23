@@ -10,7 +10,7 @@ CloudStack - Cloud Provider Registration
 Before creating a Cloud Provider, you will need to obtain the API URL, API Key and Secret Key from the CloudStack Console.
 
 
-##   Register a Cloud Provider for Microsoft Azure Resource Manager
+##   Register a Cloud Provider for CloudStack
 
 You can now register a Cloud Provider for CloudStack by navigating to **Cloud Providers** and then clicking on the **+New** button to select **CloudStack**. The required fields are:
 -   **Name** - a user can create multiple Cloud Providers with the same credentials but with different names and entitlements to control infrastructure provisioning by team or department
