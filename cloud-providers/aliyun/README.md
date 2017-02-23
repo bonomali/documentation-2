@@ -10,7 +10,7 @@ Alibab Aliyun - Cloud Provider Registration
 Before creating a Cloud Provider, you will need to obtain the Access Key and the Secret Key from the **"AccessKeys"** section in the Aliyun Console.
 
 
-##   Register a Cloud Provider for Microsoft Azure Resource Manager
+##   Register a Cloud Provider for Aliyun
 
 You can now register a Cloud Provider for Aliyun by navigating to **Cloud Providers** and then clicking on the **+New** button to select **Aliyun (Alibaba)**. The required fields are:
 -   Access Key ID: *This is the **Access Key** from Aliyun*
