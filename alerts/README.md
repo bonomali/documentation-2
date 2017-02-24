@@ -5,7 +5,7 @@
 Alerts & Notifications
 ===========================
 
-Alerts and notifications are available for when containers or VMs are down or when the CPU, Memory or Disk Utilization of either hosts or containers exceed a defined threshold.
+Alerts and notifications are available for when containers or VMs are down or when the CPU, Memory or Disk Utilization of either VMs or containers exceed a defined threshold.
 
 Notifications can be accessed by clicking on the Notification bell icon on the top right corner. A user can drill down into notifications to access more information about the incident and how it can be resolved.
 
