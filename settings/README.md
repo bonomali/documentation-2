@@ -14,6 +14,6 @@ Here are the different settings that can be changed on this page.
 | dchq.agent.connect.ip     | This is the IP of the HyperForm platform | 
 | dchq.agent.connect.port      | This is the port on which the agent communicates with RabbitMQ. By default it's 5671.     | 
 | dchq.agent.script.url | This is the URL of the agent install script for Linux      | 
-| dchq.base.url | This is the URL of the HyperForm platform. By default, it's https://<hyperform-ip>      | 
+| dchq.base.url | This is the URL of the HyperForm platform. By default, it's https://hyperform-ip      | 
 | dchq.title | This is the title that can be displayed instead of HyperForm for customer branding    | 
 | dchq.win.agent.script.url | This is the URL of the agent install script for Windows      | 
