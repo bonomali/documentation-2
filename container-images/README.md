@@ -41,9 +41,7 @@ Provide the required values as follows:
 -   **Cluster** – the building of Docker images is orchestrated through the HyperForm agent. As a result, a user needs to select a cluster on which an agent will be used to execute the building of Docker images. If a cluster has not been created yet, please refer to this section to either register already running hosts or automate the provisioning of new virtual infrastructure.
 -   **Push to Registry** – a user can push the newly created image on either a public or private repository on Docker Hub or Quay. To register a Docker Hub or Quay account, a user should navigate to Cloud Providers and clicking on the + to select Docker Registries
 -   **Repository** – this is the name of the repository on which the image will be pushed. For example, our image was pushed to dchq/php-example:latest
--   **Tag** – this is the tag name that you would like to give for the new image. The supported tag names in HyperForm include:
-..-   {{date}} -- formatted date.
-..-   {{timestamp}} -- the full time-stamp.
+-   **Tag** – this is the tag name that you would like to give for the new image. The supported tag names in HyperForm include: **{{date}}** -- formatted date, and **{{timestamp}}** -- the full time-stamp
 -   **Pre Build Plugins** - a user can select a plug-in that can be invoked before building the new image and pushing it to a registered registry
 -   **Post Build Plugins** - a user can select a plug-in that can be invoked after building the new image and pushing it to a registered registry
 -   **Build On Change** - a user can select this option to trigger an automated image build once a new commit is detected in the source control repository (e.g. GitHub or BitBucket)
