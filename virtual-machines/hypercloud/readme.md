@@ -22,7 +22,7 @@ A user can provision HyperGrid virtual machines on the newly created cluster eit
 
 A user can then click on the **Machine Compose** button to generate a YAML-based Machine Compose template. This can be used to create your own standard Machine Compose template that can be shared with other users with granular access controls.
 
-A user can create a Machine Compose template for **HyperCloud** by navigating to **Library** and then clicking on the +New button to select Machine Blueprint.
+A user can create a Machine Compose template for **HyperCloud** by navigating to **Library** and then clicking on the **+Create New Blueprint** button to select **Machine Compose**.
 
 The supported parameters for the Machine Compose template are summarized below:
 -   **description**: Description of the blueprint/template
