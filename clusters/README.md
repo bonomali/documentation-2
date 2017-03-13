@@ -6,13 +6,11 @@ Clusters
 ===========================
 
 Servers across hybrid clouds or local development machines can be associated with a cluster, which is a logical mapping of infrastructure. A user can create a cluster by navigating to Clusters page and then clicking on the +New button. A user can select from the available networks for clusters.
+-   Compute Group (Non-Docker) - for provisioning VMs only (i.e. without Docker)
 -   Docker - for setting up container networking on the same host
 -   Weave - for setting up container network across multiple hosts
 -   Docker Swarm - for setting up container network across multiple hosts
 -   Docker UCP - for automating the provisioning of Docker Universal Control Plane nodes
--   Non-Docker - for provisioning VMs only (i.e. without Docker)
-
-If starting for the first time, please use the Docker networking option.
 
 The Advanced Configuration menu can be expended to provide more advanced options.
 -   **Trusted Blueprints** -- these are the Docker Compose templates that can be deployed on this Cluser. For example, if a cluster owner wishes to restrict users to deploying Wordpress only, then users will not be able to deploy any other application to this cluster.
