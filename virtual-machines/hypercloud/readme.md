@@ -14,6 +14,7 @@ A user can provision HyperGrid virtual machines on the newly created cluster eit
 -   **Image** -- this is the .VHDX template that will be used for provisioning
 -   **Network** -- this is the virtual network that will be used for the new VM
 -   **Highly Available** – allowing users to provision the VM in HA-mode
+-   **Number of Instances** - allowing users to specify the number of VMs to be provisioned
 -   **Skip Agent Install** -- this option can be selected if the VM template has the HyperForm agent already pre-installed
 -   **Username** -- this is the username needed to log into the VM
 -   **Password** -- this is the password needed to log into the VM
