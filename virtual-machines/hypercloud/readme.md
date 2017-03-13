@@ -8,7 +8,7 @@ Provisioning Virtual Machines on HyperCloud
 A user can provision HyperGrid virtual machines on the newly created cluster either through a UI-based workflow or by defining a simple YAML-based Machine Blueprint that can be requested from the Self-Service Library.  
 
 **UI-based Workflow** – A user can request a Hyper-V virtual machine by navigating to Machines and then clicking on the **+New** button to select **HyperCloud**. Once the Cloud Provider is selected, a user can select the following options:
--   **Group** – the VM prefix that will be used for the new VM
+-   **Name Prefix** – the VM prefix that will be used for the new VM
 -   **Node** -- the HyperGrid (or Hyper-V) Node on which the new VM's will be provisioned
 -   **Instance Type** -- pre-defined templates are available that specify the CPU, Memory, Disk and Generation for the VM (e.g. cpu=1,memory=2GB,disk=100GB,generation=1). A user can customize these value to his/her needs.
 -   **Image** -- this is the .VHDX template that will be used for provisioning
