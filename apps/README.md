@@ -6,8 +6,12 @@ Once an application is deployed, a user can access monitoring, alerts and notifi
 
 **Table of Contents**  
 
-- [Registering Docker private and public repositories](#registering-docker-private-and-public-repositories)
-- [Automating the building of Docker images](#automating-the-building-of-docker-images)
+- [Accessing the In-Browser Terminal for the Running Containers](#Accessing-the-In-Browser-Terminal-for-the-Running-Containers)
+- [Monitoring The CPU, Memory & I/O Utilization Of The Running Containers](#Monitoring The CPU, Memory & I/O Utilization Of The Running Containers)
+- [Replacing or Redeploying Containers When New Images Are Pushed into a Registry](#Replacing-or-Redeploying-Containers-When-New-Images-Are-Pushed-into-a-Registry)
+- [Scaling Out An Application](#Scaling-Out-An-Application)
+- [Accessing the In-Browser Terminal for the Running Containers](#Accessing the In-Browser Terminal for the Running Containers)
+- [Monitoring The CPU, Memory & I/O Utilization Of The Running Containers](#Monitoring The CPU, Memory & I/O Utilization Of The Running Containers)
 
 Accessing the In-Browser Terminal for the Running Containers
 ----------
@@ -32,7 +36,7 @@ To set up a container redeployment (or replacement) profile, a user can select 
 A user can then select one of the stored Docker registries and enter the name of the image that should be used when replacing the running container. To register a Docker Hub, Nexus, Artifactory or Quay account, a user should navigate to Cloud Providers and clicking on the + to select Docker Registries.
 
 
-Scaling Out The .NET Application
+Scaling Out An Application
 ----------
 
 If the running application becomes resource constrained, a user can scale out the application to meet the increasing load. Moreover, a user can schedule the scale out during business hours and the scale in during weekends for example.
