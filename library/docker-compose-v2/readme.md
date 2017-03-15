@@ -5,7 +5,7 @@
 Docker Compose v2
 ===========================
 
-HyperForm is fully compatible with Docker Compose v2 (https://docs.docker.com/compose/compose-file/compose-file-v2/).
+HyperForm is fully compatible with [Docker Compose v2](https://docs.docker.com/compose/compose-file/compose-file-v2/).
 
 The platform however provides core (optional) enhancements to Docker Compose supporting advanced plug-ins with lifecycle stages to handle service discovery use cases. It also supports cross-image environment variable bindings, and automatic container IP retrieval and injection.
 
