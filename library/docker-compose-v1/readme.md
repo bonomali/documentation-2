@@ -281,64 +281,77 @@ Here are the most popular and comprehensive examples:
  * Blog: http://dchq.co/blog/6-docker-net-app-templates-to-get-you-started-on-containers
 
 **Docker Java**
+
 -   28 Docker Java application templates included. A Docker Java application that can be deployed on Docker WebSphere, JBoss, Tomcat and Jetty application servers. The Java application can also connect to Docker MySQL, MariaDB, PostgreSQL and Oracle XE. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your Java applications using HyperForm.
-GitHub project: https://github.com/dchqinc/docker-java
-Blog & Recorded Demo: http://dchq.co/blog/docker-java-application-with-solr-mongo-cassandra-design-deployment-service-discovery-and-management-in-production
+    * GitHub project: https://github.com/dchqinc/docker-java
+    * Blog & Recorded Demo: http://dchq.co/blog/docker-java-application-with-solr-mongo-cassandra-design-deployment-service-discovery-and-management-in-production
+    
 -   24 Docker Java application templates included. A Java application that uses Docker Solr for the full-text search and that can be deployed on Docker JBoss, Tomcat and Jetty application servers. The Java application can also connect to MySQL, Oracle XE, Cassandra and Mongo. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your Java applications using HyperForm.
-GitHub project: https://github.com/dchqinc/dchq-docker-java-solr-mongo-cassandra-example
+    * GitHub project: https://github.com/dchqinc/dchq-docker-java-solr-mongo-cassandra-example
+
 -   Blog & Recorded Demo: http://dchq.co/blog/a-step-by-step-guide-for-dockerizing-and-managing-a-java-app-on-28-different-application-stacks
-5 Docker Java application templates included. The Java Movie Store application that can be deployed on Docker GlassFish, Tomcat, and Jetty application servers. The Java application can also connect to Docker Mongo and Oracle XE.
-Access to the Docker GlassFish template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91800e502205c3015044dbc4202adc
-Blog & Record Demo: http://dchq.co/blog/end-to-end-automation-for-a-docker-based-java-app-on-four-application-stacks-tomcat-jboss-glassfish-and-jetty-on-any-cloud
+    * 5 Docker Java application templates included. The Java Movie Store application that can be deployed on Docker GlassFish, Tomcat, and Jetty application servers. The Java application can also connect to Docker Mongo and Oracle XE.
+    * Access to the Docker GlassFish template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91800e502205c3015044dbc4202adc
+    * Blog & Record Demo: http://dchq.co/blog/end-to-end-automation-for-a-docker-based-java-app-on-four-application-stacks-tomcat-jboss-glassfish-and-jetty-on-any-cloud
 
-Docker LAMP, LAPP, and LAOP Stacks
-9 Docker PHP application templates included for Docker LAMP, LAPP and LAOP Stacks. A simple PHP application that can be deployed on Docker LAMP (Linux-Apache-MySQL-PHP), LAPP (Linux-Apache-PostgreSQL-PHP), and LAOP (Linux-Apache-Oracle-PHP) stacks. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your PHP applications using HyperForm.
-GitHub project:  https://github.com/dchqinc/docker-lamp
-Blog & Recorded Demo: http://dchq.co/blog/a-step-by-step-guide-for-deploying-managing-a-php-application-on-docker-lamp-lapp-and-laop-stacks
+**Docker LAMP, LAPP, and LAOP Stacks**
 
-Docker MEAN.JS with Mongo
-Docker MEAN.JS with Mongo. This template supports container configuration management. The MEAN.JS image is automatically built from the official GitHub project (https://github.com/meanjs/mean). The MEAN.JS leverages environment variable bindings to connect to Mongo and a plug-in to inject the database credentials and container private IP in the development.js file dynamically or at request time.
-Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c9180084f635333014faf5ba8594d61
-Blog & Recorded Demo: http://dchq.co/2/post/2015/09/docker-based-meanjs-mongodb-express-angularjs-and-nodejs-with-mongo-replica-set-automation-on-any-cloud.html
+-   9 Docker PHP application templates included for Docker LAMP, LAPP and LAOP Stacks. A simple PHP application that can be deployed on Docker LAMP (Linux-Apache-MySQL-PHP), LAPP (Linux-Apache-PostgreSQL-PHP), and LAOP (Linux-Apache-Oracle-PHP) stacks. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your PHP applications using HyperForm.
+    * GitHub project:  https://github.com/dchqinc/docker-lamp
+    * Blog & Recorded Demo: http://dchq.co/blog/a-step-by-step-guide-for-deploying-managing-a-php-application-on-docker-lamp-lapp-and-laop-stacks
 
-Docker Node.js
-3 Docker Node.js application templates included. Docker Node.js "Hello World" Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
-GitHub project: https://github.com/dchqinc/docker-nodejs
-Access to the templates
-​Node.js Hello World
-Nginx and Node.js
-Apache HTTP Server and Node.js
-Docker Python
-3 Docker Flask Python with MongoDB application templates included. Docker Python "ToDo" Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
-GitHub project: https://github.com/dchqinc/docker-python
-Access to the templates
-​Python with MongoDB - ToDo App
-Nginx-Python-MongoDB - ToDo App
-ApacheHTTP-Python-MongoDB - ToDo App
-Docker Ruby on Rails
-3 Docker Ruby on Rails "Starter Kit" with Redis, Memcached, and PostgreSQL application templates included. Docker Rails Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
-GitHub project: https://github.com/dchqinc/docker-rails
-Access to the templates
-Ruby on Rails-Memcache-Redis-PostgreSQL
-Nginx-Ruby on Rails-Memcache-Redis-PostgreSQL
-ApacheHTTP-Ruby on Rails-Memcache-Redis-PostgreSQL
+**Docker MEAN.JS with Mongo**
 
-Docker Mongo Replica Set
-Docker Mongo Replica Set template. This template supports service discovery & container configuration management. The service discovery framework in HyperForm provides event-driven life-cycle stages that executes custom scripts to re-configure application components. This is critical when scaling out clusters for which a replica set may need to be re-balanced.
-Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91801a510732e10151362106b5567e
-Blog & Record Demo: http://dchq.co/docker-service-discovery.html
+-   Docker MEAN.JS with Mongo. This template supports container configuration management. The MEAN.JS image is automatically built from the official GitHub project (https://github.com/meanjs/mean). The MEAN.JS leverages environment variable bindings to connect to Mongo and a plug-in to inject the database credentials and container private IP in the development.js file dynamically or at request time.
+    * Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c9180084f635333014faf5ba8594d61
+    * Blog & Recorded Demo: http://dchq.co/2/post/2015/09/docker-based-meanjs-mongodb-express-angularjs-and-nodejs-with-mongo-replica-set-automation-on-any-cloud.html
 
-Docker Couchbase Cluster
-Docker Couchbase Cluster template. This template supports service discovery & container configuration management. The service discovery framework in HyperForm provides event-driven life-cycle stages that executes custom scripts to re-configure application components. This is critical when scaling out clusters for which a replica set may need to be re-balanced.
-Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91800e502205c301505986e3d52aaf
-Blog & Record Demo: http://dchq.co/blog/end-to-end-automation-for-a-docker-based-couchbase-cluster-on-any-cloud
+**Docker Node.js**
 
-Docker Drupal with MySQL
-Docker Drupal with MySQL. This template supports container configuration management. The Drupal container leverages environment variable bindings to connect to MySQL and a plug-in to inject the database credentials and container private IP in the default.settings.php file dynamically or at request time.
-Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c9180ff4f33df5f014f3498cdd10066
-Blog & Recorded Demo: http://dchq.co/blog/end-to-end-automation-for-docker-based-drupal-with-mysql-on-aws
+-   3 Docker Node.js application templates included. Docker Node.js "Hello World" Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
+-   GitHub project: https://github.com/dchqinc/docker-nodejs
+    * [Node.js Hello World](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802d5244241d0152527faac31e62)
+    * [Nginx and Node.js](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802d5244241d015247fbea0b5579)
+    * [Apache HTTP Server and Node.js](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802d5244241d0152480e5c605990)
 
-Docker Wordpress with MySQL:
-Docker Wordpress with MySQL. The Wordpress container leverages environment variable bindings to connect to MySQL.
+**Docker Python**
+
+-   3 Docker Flask Python with MongoDB application templates included. Docker Python "ToDo" Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
+-   GitHub project: https://github.com/dchqinc/docker-python
+    * Access to the templates
+    * [Python with MongoDB - ToDo App
+    * [Nginx-Python-MongoDB - ToDo App
+    * [ApacheHTTP-Python-MongoDB - ToDo App
+
+**Docker Ruby on Rails**
+
+-   3 Docker Ruby on Rails "Starter Kit" with Redis, Memcached, and PostgreSQL application templates included. Docker Rails Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
+-   GitHub project: https://github.com/dchqinc/docker-rails
+    * Access to the templates
+    * Ruby on Rails-Memcache-Redis-PostgreSQL
+    * Nginx-Ruby on Rails-Memcache-Redis-PostgreSQL
+    * ApacheHTTP-Ruby on Rails-Memcache-Redis-PostgreSQL
+
+**Docker Mongo Replica Set**
+
+-   Docker Mongo Replica Set template. This template supports service discovery & container configuration management. The service discovery framework in HyperForm provides event-driven life-cycle stages that executes custom scripts to re-configure application components. This is critical when scaling out clusters for which a replica set may need to be re-balanced.
+    * Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91801a510732e10151362106b5567e
+    * Blog & Record Demo: http://dchq.co/docker-service-discovery.html
+
+**Docker Couchbase Cluster**
+
+-   Docker Couchbase Cluster template. This template supports service discovery & container configuration management. The service discovery framework in HyperForm provides event-driven life-cycle stages that executes custom scripts to re-configure application components. This is critical when scaling out clusters for which a replica set may need to be re-balanced.
+    * Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91800e502205c301505986e3d52aaf
+    * Blog & Record Demo: http://dchq.co/blog/end-to-end-automation-for-a-docker-based-couchbase-cluster-on-any-cloud
+
+**Docker Drupal with MySQL**
+
+-   Docker Drupal with MySQL. This template supports container configuration management. The Drupal container leverages environment variable bindings to connect to MySQL and a plug-in to inject the database credentials and container private IP in the default.settings.php file dynamically or at request time.
+    * Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c9180ff4f33df5f014f3498cdd10066
+    * Blog & Recorded Demo: http://dchq.co/blog/end-to-end-automation-for-docker-based-drupal-with-mysql-on-aws
+
+**Docker Wordpress with MySQL**
+
+-   Docker Wordpress with MySQL. The Wordpress container leverages environment variable bindings to connect to MySQL.
 Access to the template: https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c9180ff4f33df5f014f348b16350058
-Blog & Recorded Demo: http://dchq.co/blog/installing-dchq-on-premise
+-   Blog & Recorded Demo: http://dchq.co/blog/installing-dchq-on-premise
