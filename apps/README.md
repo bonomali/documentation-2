@@ -21,7 +21,7 @@ A command prompt icon should be available next to the containers’ names on the
 Monitoring The CPU, Memory & I/O Utilization Of The Running Containers
 ----------
 
-Once the application is up and running, users can monitor the CPU, Memory, & I/O of the running containers to get alerts when these metrics exceed a pre-defined threshold. This is especially when performing functional & load testing.
+Once the application is up and running, users can monitor the CPU, Memory, & I/O of the running containers to get alerts when these metrics exceed a pre-defined threshold. This is especially useful when performing functional & load testing.
 
 A user can perform historical monitoring analysis and correlate issues to container updates or build deployments. This can be done by clicking on the Stats link. A custom date range can be selected to view CPU, Memory and I/O historically.
 
