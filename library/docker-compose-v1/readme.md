@@ -270,9 +270,9 @@ Here are the most popular and comprehensive examples:
 
 **Docker .NET (Docker DotNet)**
 
-* 9 Docker .NET (DotNet) Application templates included. A Docker .NET application that connects to SQLite, PostgreSQL, and Microsoft SQL Server. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your .NET applications using HyperForm.
- * GitHub project: https://github.com/dchqinc/docker-dotnet
- * Blog & Recorded Demo: http://dchq.co/blog/9-docker-net-app-templates-a-complete-guide-for-containerizing-a-net-application-that-connects-to-sqlite-postgresql-and-microsoft-sql-server
+-   9 Docker .NET (DotNet) Application templates included. A Docker .NET application that connects to SQLite, PostgreSQL, and Microsoft SQL Server. This project is public and is designed to provide a step-by-step guide for Dockerizing and managing your .NET applications using HyperForm.
+    * GitHub project: https://github.com/dchqinc/docker-dotnet
+    * Blog & Recorded Demo: http://dchq.co/blog/9-docker-net-app-templates-a-complete-guide-for-containerizing-a-net-application-that-connects-to-sqlite-postgresql-and-microsoft-sql-server
 
 * 6 Docker ASP.NET Application templates included. Basic ASP.NET and ASP.NET MVC applications to get users started on containerizing .NET applications
  * GitHub projects:
