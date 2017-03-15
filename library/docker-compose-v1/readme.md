@@ -319,18 +319,18 @@ Here are the most popular and comprehensive examples:
 -   3 Docker Flask Python with MongoDB application templates included. Docker Python "ToDo" Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
 -   GitHub project: https://github.com/dchqinc/docker-python
     * Access to the templates
-    * [Python with MongoDB - ToDo App
-    * [Nginx-Python-MongoDB - ToDo App
-    * [ApacheHTTP-Python-MongoDB - ToDo App
+    * [Python with MongoDB - ToDo App](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe015299ec3397323b)
+    * [Nginx-Python-MongoDB - ToDo App](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe01529a35aa284895)
+    * [ApacheHTTP-Python-MongoDB - ToDo App](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe01529a3d18a54b59)
 
 **Docker Ruby on Rails**
 
 -   3 Docker Ruby on Rails "Starter Kit" with Redis, Memcached, and PostgreSQL application templates included. Docker Rails Example with Nginx and Apache HTTP Server for Reverse Proxy & Load Balancing.
 -   GitHub project: https://github.com/dchqinc/docker-rails
     * Access to the templates
-    * Ruby on Rails-Memcache-Redis-PostgreSQL
-    * Nginx-Ruby on Rails-Memcache-Redis-PostgreSQL
-    * ApacheHTTP-Ruby on Rails-Memcache-Redis-PostgreSQL
+    * [Ruby on Rails-Memcache-Redis-PostgreSQL](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe0152a022544b182b)
+    * [Nginx-Ruby on Rails-Memcache-Redis-PostgreSQL](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe0152a355b7784e89)
+    * [ApacheHTTP-Ruby on Rails-Memcache-Redis-PostgreSQL](https://www.dchq.io/landing/products.html#/library?org=DCHQ&bl=2c91802e526f8dfe0152a352fcd44e4d)
 
 **Docker Mongo Replica Set**
 
