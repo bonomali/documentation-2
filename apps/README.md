@@ -6,12 +6,12 @@ Once an application is deployed, a user can access monitoring, alerts and notifi
 
 **Table of Contents**  
 
-- [Accessing the In-Browser Terminal for the Running Containers](#Accessing-the-In-Browser-Terminal-for-the-Running-Containers)
-- [Monitoring The CPU, Memory & I/O Utilization Of The Running Containers](#Monitoring The CPU, Memory & I/O Utilization Of The Running Containers)
-- [Replacing or Redeploying Containers When New Images Are Pushed into a Registry](#Replacing-or-Redeploying-Containers-When-New-Images-Are-Pushed-into-a-Registry)
-- [Scaling Out An Application](#Scaling-Out-An-Application)
-- [Accessing the In-Browser Terminal for the Running Containers](#Accessing the In-Browser Terminal for the Running Containers)
-- [Monitoring The CPU, Memory & I/O Utilization Of The Running Containers](#Monitoring The CPU, Memory & I/O Utilization Of The Running Containers)
+- [Accessing the In-Browser Terminal for the Running Containers](#accessing-the-in-browser-terminal-for-the-running-containers)
+- [Monitoring The CPU, Memory & I/O Utilization Of The Running Containers](#monitoring-the-cpu-memory--io-utilization-of-the-running-containers)
+- [Replacing or Redeploying Containers When New Images Are Pushed into a Registry](#replacing-redeploying-containers-when-new-images-are-pushed-into-a-registry)
+- [Scaling Out An Application](#scaling-out-an-application)
+- [Executing Plug-Ins Post-Provision To Update An Application](#xecuting-plug-ins-post-provision-to-update-an-application)
+
 
 Accessing the In-Browser Terminal for the Running Containers
 ----------
