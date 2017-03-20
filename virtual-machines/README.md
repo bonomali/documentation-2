@@ -26,7 +26,8 @@ This can be done by clicking on the **+New** button to select your cloud of choi
 -   [HyperCloud](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines/hypercloud)
 
 
-**Managing VMs post-provision**  
+Managing VMs Post-Provision 
+===========================
 
 HyperCloud automates both the provisioning and the lifecycle management operations for both infrastructure and application services – allowing teams to access monitoring, alerts, in-browser terminals, logs, audit trails, VM timeline, and controlled updates using IT-approved scripts. By adopting automated lifecycle management, IT could automate downstream operations, lowering the cost to apply patches, scale out resources, and update configurations.
 
