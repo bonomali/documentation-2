@@ -17,4 +17,4 @@ Once a user clicks **Save**, then an automatically generated script appears. Yo
 
 The location of the agent install script can be changed by navigating to **Identity** > **System Settings**.
 
-This task can be automated programmatically using our REST API’s for creating “Docker Servers” (https://dchq.readme.io/docs/dockerservers) 
+This task can be automated programmatically using our REST API’s for creating [Docker Servers](https://dchq.readme.io/docs/dockerservers)
