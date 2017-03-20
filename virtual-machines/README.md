@@ -2,8 +2,6 @@
 <img src="http://www.hypergrid.com/wp-content/themes/hypergrid/img/logo.png" alt="" />
 </figure>
 
-**Table of Contents**  
-
 - [Registering already running servers or VMs](#registering-already-running-servers-or-vms)
 - [Provisioning VMs on HyperCloud or other supported clouds](#provisioning-vms-on-hypercloud-or-other-supported-clouds)
 - [Managing VMs post-provision](#managing-vms-post-provision)
