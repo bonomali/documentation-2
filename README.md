@@ -75,7 +75,7 @@ Enable backups, big data analytics and static website hosting with highly durabl
 
 **Get started with the object storage service**
 
--   Provision a [**virtual machine**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines) and then create and attach two [**volumes**] to the VM with the expected size for the object storage
+-   Provision a [**virtual machine**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines) and then create and attach two [**volumes**](https://github.com/hypergrid-inc/documentation/tree/master/volumes) to the VM with the expected size for the object storage
 -   Provision the Minio blueprint from the **Library** page to roll out object storage service to your users. Map the volumes in the blueprint to the ones created in the previous step. Customize the access key and secret key or generate random keys using {{alphanumeric | 12}} as a value to the environment varaiables 
 
 
