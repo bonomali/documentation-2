@@ -5,7 +5,7 @@
 **Table of Contents**  
 
 - [Registering already running servers or VMs](#registering-already-running-servers-or-vms)
-- [Provisioning VMs on HyperCloud or other supported clouds](#provisioning-vms-on-hyperCloud-or-other-supported-clouds)
+- [Provisioning VMs on HyperCloud or other supported clouds](#provisioning-vms-on-hypercloud-or-other-supported-clouds)
 - [Managing VMs post-provision](#managing-vms-post-provision)
 
 Registering already running servers or VMs
@@ -17,6 +17,7 @@ To register a running machine, a user needs to provide the IP address and then r
 -   Register an existing [**Linux machine**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines/register-linux-machine)
 -   Register an existing [**Windows machine**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines/register-windows-machine)
 
+
 Provisioning VMs on HyperCloud or other supported clouds
 ----------
 
@@ -24,6 +25,7 @@ A user can provision virtual machines on HyperCloud or any of the other 15 other
 
 This can be done by clicking on the **+New** button to select your cloud of choice.
 -   [HyperCloud](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines/hypercloud)
+
 
 
 Managing VMs Post-Provision 
