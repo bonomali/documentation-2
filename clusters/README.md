@@ -26,5 +26,6 @@ The Advanced Configuration menu can be expanded to provide more advanced options
 -   **Volume Provider** -- this is the default volume provider that will be used when creating and mounting volumes for containers. With this setting, users would not need to provide the volume provider information in the application template. Volume Providers can be registered in the [Cloud Providers](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers) section.
 -   **Entitled Users** -- these are the users who are allowed to deploy container applications to this Cluster. The entitled users do not have permission to manage or delete this cluster. For example, a developer may register his/her local machine and mark it as private. A tenant admin, on the other hand, may share a cluster with a specific group of users or with all tenant users.
 
-**Next Steps**:
+##   Next Steps
+
 -   Provision VMs or register already running servers from the [**Virtual Machines**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines) page
