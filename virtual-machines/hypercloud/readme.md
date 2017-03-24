@@ -5,11 +5,11 @@
 Provisioning Virtual Machines on HyperCloud
 ===========================
 
-A user can provision HyperCloud virtual machines on the newly created cluster either through a UI-based workflow or by defining a simple YAML-based Machine Blueprint that can be requested from the Self-Service Library.  
+A user can provision HyperCloud virtual machines through a UI-based workflow or by defining a simple YAML-based Machine Blueprint that can be requested from the Self-Service Library.  
 
 **UI-based Workflow** – A user can request a HyperCloud virtual machine by navigating to **Machines** and then clicking on the **+New** button to select **HyperCloud**. Once the Cloud Provider is selected, a user can select the following options:
 -   **Name Prefix** – the VM prefix that will be used for the new VM
--   **Node** -- the HyperGrid (or Hyper-V) Node on which the new VM's will be provisioned
+-   **Node** -- the HyperCloud (or Hyper-V) Node on which the new VM's will be provisioned
 -   **Instance Type** -- pre-defined templates are available that specify the CPU, Memory, Disk and Generation for the VM (e.g. cpu=1,memory=2GB,disk=100GB,generation=1). A user can customize these value to his/her needs.
 -   **Image** -- this is the .VHDX template that will be used for provisioning
 -   **Network** -- this is the virtual network that will be used for the new VM
@@ -18,7 +18,7 @@ A user can provision HyperCloud virtual machines on the newly created cluster ei
 -   **Skip Agent Install** -- this option can be selected if the VM template has the HyperForm agent already pre-installed
 -   **Username** -- this is the username needed to log into the VM
 -   **Password** -- this is the password needed to log into the VM
--   **Cluster** -- this is the HyperForm cluster that is created by the user
+-   **Cluster** -- this is the HyperCloud cluster that is created by the user
 -   **VM Count** -- this is the number of VM's that can be provisioned simultaneously
 
 A user can then click on the **Machine Compose** button to generate a YAML-based Machine Compose template. This can be used to create your own standard Machine Compose template that can be shared with other users with granular access controls.
@@ -31,11 +31,29 @@ The supported parameters for the Machine Compose template are summarized below:
 -   **region**: Mandatory -- the name of the Hyper-V Node
 -   **image**: Mandatory - fully qualified path of the .VHDX template (e.g. \\VFCN10-AD\HyperForm\Template\HyperForm_Ubuntu-14.04_64_10.0.254.100.vhdx)
 -   **username**: This the username used to connect to the VM
--   **password**: This can reference a private key stored in the Credentials store. The ID of the credential item stored in the Cloud Providers > Credentials page will be needed. Here's the acceptable format: "{{credentials | 2c91802a520736224015209a6393098322}}"
+-   **password**: This can reference a private key stored in the Credentials store. The ID of the credential item stored in the **Cloud Providers** > **Credentials** page will be needed. Here's the acceptable format: "{{credentials | 2c91802a520736224015209a6393098322}}"
 -   **network**: Cloud provider specific value (e.g. Virtual Switch1)
 -   **affinity**: this is a Boolean value to enable High Availability option (e.g. true or false)
 -   **skipAgentInstall**: this is a Boolean value to indicate whether or not an agent should be installed as part of the VM provisioning workflow
 -   **count**: Total no of VM's, defaults to 1.
+
+Here's an example template:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ubuntu4GB: 
+  group: hglinux
+  region: GS1410-0040
+  image: \\SMBShare01\FS01\Template\Ubuntu14HFTemplate.vhdx
+  instanceType: cpu=2,memory=4GB,disk=100GB,generation=1
+  network: Compute vmSwitch
+  skipAgentInstall: true
+  count:   
+  plugins:
+    - !plugin
+      id: Rc8be
+      lifecycle: post_create
+      arguments:
+        - file_url=https://github.com/dchqinc/dchq-docker-java-example/raw/master/dbconnect.war
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In addition to these supported parameters, you will also notice that this template is referencing a "plugin". A plugin can be invoked as follows:
 
@@ -46,7 +64,7 @@ In addition to these supported parameters, you will also notice that this templa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The plug-in can be created by Navigating to **Plugins** and then clicking on the **+New** button. A plug-in is a simple script that can run on either the server being provisioned or on the Docker container. The server plugins can be used for any number of configuration requirements:
--   Installing software using Puppet Modules, BASH, PowerShell. Perl, Python or Ruby scripts
+-   Installing software using Puppet Modules, BASH, PowerShell, Perl, Python or Ruby scripts
 -   Retrieving the CA certificate needed for the private Docker registry from a secure S3 bucket and then saving it in the right directory (e.g. /etc/docker/certs.d/<domain-name>:5000/ca.crt)
 
 The Machine Compose template has additional advanced options.
