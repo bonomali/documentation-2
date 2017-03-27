@@ -65,7 +65,7 @@ In addition to these supported parameters, you will also notice that this templa
 
 The plug-in can be created by Navigating to **Plugins** and then clicking on the **+New** button. A plug-in is a simple script that can run on either the server being provisioned or on the Docker container. The server plugins can be used for any number of configuration requirements:
 -   Installing software using Puppet Modules, BASH, PowerShell, Perl, Python or Ruby scripts
--   Retrieving the CA certificate needed for the private Docker registry from a secure S3 bucket and then saving it in the right directory (e.g. /etc/docker/certs.d/<domain-name>:5000/ca.crt)
+-   Applying patches or udpdating configuration
 
 The Machine Compose template has additional advanced options.
 -   **YAML** -- this is the actual machine blueprint allowing adminstrators to manage "infrastructure as code"
