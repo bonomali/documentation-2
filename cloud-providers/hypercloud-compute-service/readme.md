@@ -32,5 +32,5 @@ Once saved, a user can test the connection by clicking on **Test Connection** bu
 
 ##   Next Steps
 
--   Create a Cluster: https://github.com/hypergrid-inc/documentation/edit/master/clusters
--   Provision a VM: https://github.com/hypergrid-inc/documentation/edit/master/virtual-machines
+-   [**Create a Cluster**](https://github.com/hypergrid-inc/documentation/tree/master/clusters)
+-   [**Provision a VM**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines)
