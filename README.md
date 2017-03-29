@@ -37,7 +37,7 @@ Accelerate the deployment of mission-critical applications with flexible compute
 
 **Get started with the compute service**
 
--   Register a [**Cloud Provider**](https://github.com/hypergrid-inc/documentation/tree/master/cloud-providers/hypercloud) for HyperCloud
+-   Register a [**Cloud Provider**](https://github.com/hypergrid-inc/documentation/tree/master/cloud-providers/hypercloud-compute-service) for HyperCloud
 -   Create a [**Compute Cluster**](https://github.com/hypergrid-inc/documentation/tree/master/clusters)
 -   Provision VMs or register already running servers from the [**Virtual Machines**](https://github.com/hypergrid-inc/documentation/tree/master/virtual-machines) page. Generate **machine blueprints** that can be requested from the self-service library to standardize VM provisioning in your organization while adhering to IT-defined governance controls, entitlements, approvals and quota policies.
 
@@ -57,7 +57,7 @@ Power the most I/O intensive applications with high performance, fault-tolerantÂ
 
 **Get started with the block storage service**
 
--   Register a [**Volume Provider**](https://github.com/hypergrid-inc/documentation/tree/master/cloud-providers/hypercloud) for HyperCloud
+-   Register a [**Volume Provider**](https://github.com/hypergrid-inc/documentation/tree/master/cloud-providers/hypercloud-block-storage-service) for HyperCloud
 -   Provision a [**Volume**](https://github.com/hypergrid-inc/documentation/tree/master/volumes) and then **attach** the volume to a running VM. **Resize** or scale up a volume to accommodate for the growing disk utilization and **clone** a volume to create backups of your mission-critical data.
 
 
