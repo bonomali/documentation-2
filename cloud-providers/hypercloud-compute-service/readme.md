@@ -7,7 +7,7 @@ HyperCloud - Cloud Provider Registration
 
 ##   Register a Cloud Provider for HyperCloud
 
-You can now register a Cloud Provider for HyperCloud by navigating to **Cloud Providers** and then clicking on the **+New** button to select **HyperCloud**. The required fields are:
+You can now register a Cloud Provider for HyperCloud by navigating to **Cloud Providers** and then clicking on the **+New** button to select **HyperCloud (HCS)**. The required fields are:
 -   **Name** -- A name for the HyperCloud end-point
 -   **Endpoint URL** -- This is the URL of the Hyper-V server on which the proxy is running. The proxy is secured through SSL and so this URL should start with HTTPS. To install a proxy from scratch, click on the **"Is Proxy Installed"** link. An auto-generated script is available allowing users to install the proxy on the Hyper-V server. You can change the password in the script by overriding "some-password" to your own custom password.
 -   **Password** -- This is the password used for the proxy.
