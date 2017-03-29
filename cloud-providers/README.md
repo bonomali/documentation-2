@@ -13,7 +13,7 @@ Once logged into HyperForm, you can then register a Cloud Provider. The governan
 Here's a list of examples for some popular clouds & virtualization platforms.
 
 Public Clouds:
--   Alibaba Aliyun: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aliyun
+-   (**Alibaba Aliyun:**) [https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aliyun]
 -   Amazon Elastic Cloud Computing (EC2): https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aws
 -   Microsoft Azure Resource Manager: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/azure
 -   DigitalOcean: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/digitalocean
