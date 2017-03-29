@@ -13,19 +13,24 @@ Once logged into HyperForm, you can then register a Cloud Provider. The governan
 Here's a list of examples for some popular clouds & virtualization platforms.
 
 Public Clouds:
--   [**Alibaba Aliyun:**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aliyun)
--   [**Amazon Elastic Cloud Computing (EC2):**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aws)
--   [**Microsoft Azure Resource Manager:**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/azure)
--   [**DigitalOcean:**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/digitalocean)
--   [**IBM SoftLayer:**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/softlayer)
--   Rackspace: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/rackspace
--   OVH: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/ovh
--   Platform9: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/platform9
--   Google Cloud: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/google-cloud
+-   [**Alibaba Aliyun**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aliyun)
+-   [**Amazon Elastic Cloud Computing (EC2)**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/aws)
+-   [**Microsoft Azure Resource Manager**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/azure)
+-   [**DigitalOcean**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/digitalocean)
+-   [**IBM SoftLayer**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/softlayer)
+-   [**Rackspace**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/rackspace)
+-   [**OVH**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/ovh)
+-   [**Platform9**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/platform9)
+-   [**Google Cloud**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/google-cloud)
 
 Private Clouds
--   HyperCloud: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud
--   Microsoft Hyper-V: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hyper-v
--   VMware vSphere: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/vsphere
--   OpenStack (OVH): https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/openstack
--   Cloudstack: https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/cloudstack
+-   [**HyperCloud Compute Service**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-compute-service)
+-   [**HyperCloud Block Storage Service**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-block-storage-service)
+-   [**HyperCloud Object Storage Service**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-object-storage-service)
+-   [**HyperCloud Network Service**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-network-service)
+-   [**HyperCloud IP Service**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-ip-service)
+-   [**HyperCloud Credential Store**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hypercloud-credential-store)
+-   [**Microsoft Hyper-V**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/hyper-v)
+-   [**VMware vSphere**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/vsphere)
+-   [**OpenStack (OVH)**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/openstack)
+-   [**Cloudstack**](https://github.com/hypergrid-inc/documentation/edit/master/cloud-providers/cloudstack)
